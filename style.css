@@ -11,12 +11,7 @@ html{
 --navbar-height:59px;
 }
 
-#navbar{
-    display: flex;
-    align-items: center;
-    position: sticky;
-    top: 0px;
-}
+
 #navbar::before{
     content: "";
     background-color: black;
@@ -36,40 +31,6 @@ html{
     color: white;
  
      }
-     
- #navbar ul li a:hover{
-         color: black;
-      background-color: white;
-          }
-
-#navbar ul{
-display: flex;
-font-family: 'Ubuntu', sans-serif
-}
-#navbar ul li{
-    list-style: none;
-font-size: 1.3rem;
-    }
- #logo{
-        margin: 29px 4px;
-        }
-        
-  #logo img {
-         height:60px;
-           margin: -21px 34px;
-        }
-
- /*home section*/
-
-#home{
-    display: flex;
-    flex-direction: column;
-    padding: 3px 200px;
-    height: 530px;
-    justify-content: center;
-    align-items: center;
-
-}
  
 #home::before{
     content: "";
